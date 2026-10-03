@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-timelock-operation-replay"
+version = "0.1.0"
+description = "Replay scheduling, cancellation and execution with predecessor dependencies, grace windows and permanent operation IDs."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-timelock-operation-replay = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

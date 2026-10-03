@@ -1,0 +1,22 @@
+{
+  "executed_count": 1,
+  "operations": {
+    "a": {
+      "eta": 5,
+      "predecessor": null,
+      "state": "executed"
+    }
+  },
+  "trace": [
+    {
+      "id": "a",
+      "state": "scheduled",
+      "timestamp": 0
+    },
+    {
+      "id": "a",
+      "state": "executed",
+      "timestamp": 5
+    }
+  ]
+}

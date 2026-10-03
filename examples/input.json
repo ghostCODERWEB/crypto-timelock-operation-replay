@@ -1,0 +1,17 @@
+{
+  "minimum_delay": 5,
+  "grace_period": 10,
+  "events": [
+    {
+      "timestamp": 0,
+      "id": "a",
+      "kind": "schedule",
+      "eta": 5
+    },
+    {
+      "timestamp": 5,
+      "id": "a",
+      "kind": "execute"
+    }
+  ]
+}
